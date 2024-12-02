@@ -1,0 +1,44 @@
+.drawerContainer {
+  .drawerHeader {
+    height: auto;
+    background: #ffffff;
+    box-shadow: inset 0 -0.0625rem 0 #ebebec;
+    justify-content: space-between;
+    padding: 20px 16px;
+  }
+  .drawerHeaderClose {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .drawerSidebar {
+    width: 100%;
+    height: 100%;
+  }
+  .drawerContent {
+    flex: 1;
+    display: flex;
+  }
+
+  .drawerFooter {
+    width: 100%;
+    padding: 20px 16px;
+    border-top: 1px solid #eaecf0;
+  }
+  .defaultDrawerWidth {
+    width: 475px;
+  }
+  .drawerWrapper {
+    height: auto;
+    top: 12px;
+    right: 6px;
+    bottom: 16px;
+    border-radius: 16px;
+  }
+}
+
+.drawerLayout {
+  flex-basis: 100%;
+  overflow: auto;
+}

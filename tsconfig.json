@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "paths": {
+      "containers": ["./containers"],
+      "components": ["./components"],
+      "services": ["./services"],
+      "constants": ["./constants"],
+      "utils": ["./utils"],
+      "context": ["./context"],
+      "assets": ["./assets"],
+      "hooks": ["./hooks"]
+    },
+    "declarationDir": "build/types",
+    "outDir": "build",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src/**/*", "src/declarations.d.ts"],
+  "exclude": ["node_modules", "build", "src/public"]
+}

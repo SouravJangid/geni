@@ -1,0 +1,2 @@
+APP_ENV=production
+BE_SERVER_ADDRESS=http://13.210.149.115:8080

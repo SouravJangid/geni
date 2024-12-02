@@ -1,0 +1,100 @@
+.add-doctor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 16px;
+  }
+  .footer {
+    width: 100%;
+    padding-top: 16px;
+    border-top: 1px solid #eaecf0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+  .back-btn {
+    margin-right: 20px;
+  }
+  .next-btn {
+    padding: 12px 40px;
+    border-radius: 50px;
+    background: #0761e9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 59, 31, 0.23) inset;
+  }
+  .close-btn {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .toggle-group {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    .toggle-btn {
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      padding-left: 12px;
+      padding-right: 12px;
+      flex-grow: 1;
+    }
+  }
+}
+
+.step1Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #cdcdcd;
+  background: #fff;
+
+  .step-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+  }
+}
+
+.date-picker {
+  width: 100%;
+}
+
+.stepperContainer {
+  width: 100%;
+}
+
+.stepWrapper {
+  width: 100%;
+  margin-top: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

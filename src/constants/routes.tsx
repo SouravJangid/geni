@@ -1,0 +1,33 @@
+export enum ROUTES_ENUM {
+  LOGIN = 'LOGIN',
+  SIGNUP = 'SIGNUP',
+  RESET_PASSWORD = 'RESET_PASSWORD',
+  SET_PASSWORD = 'SET_PASSWORD',
+  DASHBOARD = 'DASHBOARD',
+  DOCTORS = 'DOCTORS',
+  CHAT = 'CHAT',
+  PATIENTS = 'PATIENTS',
+  QUERIES = 'QUERIES',
+  SETTINGS = 'SETTINGS',
+  HELP = 'HELP',
+  REPORTS = 'REPORTS',
+  SHAREDFILES = 'SHAREDFILES',
+  EDUCATIONAL = 'EDUCATIONAL',
+}
+
+export const Routes = {
+  [ROUTES_ENUM.LOGIN]: '/login',
+  [ROUTES_ENUM.SIGNUP]: '/signup',
+  [ROUTES_ENUM.RESET_PASSWORD]: '/reset-password',
+  [ROUTES_ENUM.SET_PASSWORD]: '/set-password',
+  [ROUTES_ENUM.DASHBOARD]: '/dashboard',
+  [ROUTES_ENUM.DOCTORS]: '/doctors',
+  [ROUTES_ENUM.CHAT]: '/chat',
+  [ROUTES_ENUM.PATIENTS]: '/patients',
+  [ROUTES_ENUM.QUERIES]: '/queries',
+  [ROUTES_ENUM.SETTINGS]: '/settings',
+  [ROUTES_ENUM.HELP]: '/help',
+  [ROUTES_ENUM.REPORTS]: '/reports',
+  [ROUTES_ENUM.SHAREDFILES]: '/sharedfiles',
+  [ROUTES_ENUM.EDUCATIONAL]: '/educational',
+};

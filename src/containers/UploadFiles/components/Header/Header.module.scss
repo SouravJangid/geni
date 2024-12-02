@@ -1,0 +1,159 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .header-text {
+    width: auto;
+    height: 32px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    text-align: left;
+  }
+
+  .header-text-2 {
+    width: auto;
+    height: 20px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.92px;
+    letter-spacing: 0.4px;
+    color: #777777;
+  }
+
+  .upload-data-btn {
+    margin-left: auto;
+    border-radius: 50px;
+    background: #ffffff;
+    color: #0c83fb;
+  }
+}
+
+.dropdown-container {
+  position: absolute;
+  width: 413px;
+  height: 450px;
+  top: 172px;
+  left: 549px;
+  padding: 30px 22px 30px 24px;
+  border-radius: 16px;
+  background-color: #5a1919;
+}
+
+// modal styling
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon-container-1{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(14, 142, 174);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 10px; 
+}
+
+.icon-container-2{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 10px; 
+}
+
+.icon-container-3{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 10px; 
+}
+.progress-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  margin-left: auto; // Pushes progress bar beside icons
+
+  .progress-container {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    background-color: #87ceeb; 
+    border-radius: 5px;
+    overflow: hidden; 
+    margin-left: auto;
+  }
+
+  .progress-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(11, 51, 183); 
+    border-radius: 5px 0 0 5px;
+    transition: width 0.3s ease; 
+  }
+
+  span {
+    font-size: 14px;
+    color: #555;
+  }
+}
+
+.dropzone {
+  border: 2px dashed lightgray;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.close-btn {
+  align-self: flex-end;
+}

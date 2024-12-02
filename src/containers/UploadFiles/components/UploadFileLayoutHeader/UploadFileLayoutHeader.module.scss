@@ -1,0 +1,85 @@
+.header {
+  height: 74px;
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 15px 0px 15px;
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    flex-grow: 1;
+  }
+
+  .header-text {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+
+  Button {
+    width: auto;
+    height: 29px;
+    gap: 4px;
+    border-radius: 50px;
+    font-family: 'Outfit';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #212121;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+  }
+  .active {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    background: #ffffff;
+  }
+
+  .inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #e2e2e2;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+
+  .input-box {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+  }
+  .inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+
+  ::placeholder {
+    color: #abb2bf;
+  }
+}

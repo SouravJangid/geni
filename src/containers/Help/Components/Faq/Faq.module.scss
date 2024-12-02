@@ -1,0 +1,58 @@
+.container{
+    width: auto;
+    border-radius: 8px ;
+    border: 1px solid #D7DBE1;
+    background-color: #FFFFFF;
+    opacity: 1;
+    padding: 20px;
+  }
+  
+  .accordionContainer {
+    // width: 1073.64px;
+    height: auto; 
+    gap: 20px;
+    opacity: 1;
+  }
+  
+  .accordion-wrapper {
+    .accordion {
+      width: 100%;
+      background-color: transparent;
+      box-shadow: none;
+  
+      &:before {
+        display: none; // Removes the pseudo-element shadow
+      }
+  
+      .MuiAccordion-root {
+        box-shadow: none;
+      }
+  
+      .MuiAccordionSummary-root {
+        background-color: transparent;
+        box-shadow: none;
+      }
+  
+      .MuiAccordionDetails-root {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+  
+  // Add more specificity if needed
+  .accordion-wrapper .accordion .MuiAccordion-root,
+  .accordion-wrapper .accordion .MuiAccordionSummary-root,
+  .accordion-wrapper .accordion .MuiAccordionDetails-root {
+    box-shadow: none;
+  }
+  
+  
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #D7DBE1;
+    margin: 8px 0;
+  }
+  

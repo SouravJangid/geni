@@ -1,0 +1,18 @@
+.login-wrapper {
+  background-color: #f2f2f2;
+}
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12vw;
+  margin: 4rem 3rem;
+}
+
+.login-img-container {
+  align-self: end;
+  img {
+    width: 130px;
+    height: auto;
+  }
+}

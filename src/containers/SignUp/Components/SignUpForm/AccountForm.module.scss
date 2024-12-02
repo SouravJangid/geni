@@ -1,0 +1,177 @@
+.signupWrapper {
+  min-width: 26rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .signupContainer {
+    // align-items: center;
+    text-align: center;
+    .logoImg {
+      width: 130px;
+    }
+  }
+  .createAccountContainer {
+    text-align: center;
+  }
+}
+.signContainer {
+  border-radius: 1rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding:2em;
+  align-items: center;
+
+  .title {
+    font-size: 0.75em;
+    color: #767676;
+  }
+  .subtitle {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .formWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    gap: 1em;
+  }
+  .imageUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 1em; 
+    border-radius: 8px; 
+    img {
+      border-radius: 10%; 
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      margin-bottom: 0.5em; 
+      transition: transform 0.3s ease; 
+    }
+    .divIcon {
+      background-color: #f2f2f2;
+      padding: 1em;
+      border-radius: 10%;
+      margin-bottom: 0.75em;
+      .profileIcon {
+        color: #777;
+        font-size: 2rem;
+      }
+    }
+
+    .imageText {
+      color: #5a5a5a;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+      transition:
+        color 0.3s ease,
+        text-decoration 0.3s ease;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    input {
+      display: none;
+    }
+  }
+.devider{
+  width: 100%;
+}
+  .inputContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.15px;
+    justify-content: start;
+    font-size: 400;
+  }
+
+  .userField {
+    margin-bottom: 0.5rem;
+  }
+
+  .forgotPassword {
+    color: #696969;
+    letter-spacing: 0.17px;
+    margin-top: 18px;
+    font-size: 400;
+  }
+
+  .divider {
+    margin-top: 32px;
+    width: 100%;
+    height: 1px;
+    color: black;
+  }
+
+  .button {
+    background: #0761e9;
+      box-shadow: 0px 4px 4px 0px rgba(0, 59, 31, 0.23) inset;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 30px;
+      margin-left: auto;
+    
+      &:hover {
+        background-color: #0056b3;
+      }
+  }
+}
+
+
+.footer {
+  font-size: 0.8rem;
+  color: #777;
+
+  a {
+    color: #2196f3;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.navButtons {
+  display: flex;
+  gap: 2em;
+  margin-left: auto;
+  .back{
+    color: #000;
+  }
+}
+.checkbox {
+  margin-bottom: 1rem;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.progressBarContainer {
+  width: 15%;
+  height: 0.21em;
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.progressBarFill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #1976d2;
+  transition: width 0.3s ease;
+}

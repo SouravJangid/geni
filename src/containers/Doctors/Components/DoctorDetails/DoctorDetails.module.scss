@@ -1,0 +1,184 @@
+.doctor-details-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+  }
+  .header-wrapper {
+    background: #eaeeff;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .briefInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background: #eaeeff;
+    padding: 24px 16px;
+  }
+  .doctorName {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+  }
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .doctorDOB {
+    display: flex;
+    gap: 12px;
+    margin-top: 2px;
+  }
+  .doctorDOB span:nth-child(1) {
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 166%;
+    letter-spacing: 0.4px;
+  }
+  .doctorDOB span:nth-child(3) {
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 166%;
+    letter-spacing: 0.4px;
+  }
+  .separator {
+    display: inline-block;
+    border-left: 1px solid #d1d1d1;
+    height: 16px;
+    align-self: center;
+  }
+  .contact {
+    margin-top: 8px;
+    display: flex;
+    gap: 12px;
+  }
+  .contact-item {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 4px 8px;
+  }
+
+  .profDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+  .profDetails > h6 {
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .profDetails-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .profDetails-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    & > label {
+      color: #666;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 100%;
+    }
+    & > span {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.15px;
+    }
+  }
+  .profDetails-group-item {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .chip-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    & > * {
+      color: #080808;
+      background: #eaeeff;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 166%;
+      letter-spacing: 0.4px;
+    }
+  }
+
+  .practiceDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+
+  .practiceDetails > h6 {
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .practiceDetails-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .practiceDetails-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    & > label {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 143%;
+      letter-spacing: 0.17px;
+    }
+    & > span {
+      color: #666;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 166%;
+      letter-spacing: 0.4px;
+    }
+  }
+  .chip-title {
+    color: #666;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  .divider {
+    color: #ececec;
+    margin: 0 16px;
+  }
+}

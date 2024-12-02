@@ -1,0 +1,30 @@
+.profile-menu {
+  .avatar-button {
+    background-color: transparent;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .custom-menu {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 220px;
+  }
+
+  .MuiMenuItem-root {
+    font-size: 14px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+    .MuiListItemIcon-root {
+      min-width: 30px;
+    }
+  }
+
+  .MuiDivider-root {
+    margin: 5px 0;
+  }
+}

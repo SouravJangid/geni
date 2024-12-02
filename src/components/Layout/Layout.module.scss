@@ -1,0 +1,20 @@
+.main-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 24px;
+  background: #f2f2f2;
+  gap: 20px;
+}
+
+.sidebar {
+  width: 287px;
+  margin: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}

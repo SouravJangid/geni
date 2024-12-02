@@ -1,0 +1,44 @@
+.doctor-table-container {
+    background: #FFF;
+    padding: 20px;
+  }
+
+  .custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    th {
+        border-bottom: 1px solid #ECECEC;
+    }
+  }
+
+.doc-name-cell {
+    display: flex;
+    gap: 4px;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        background: #D9D9D9;
+    }
+}  
+
+.table-cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: 0.17px;
+}
+.table-header-cell {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase; 
+}
+
+.table-action-btn {
+    background-color: rgba(0,0,0, 0.04);
+}

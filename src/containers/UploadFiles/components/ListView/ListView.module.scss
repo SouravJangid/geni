@@ -1,0 +1,92 @@
+.file-table-container {
+    width: 100%;
+    background: #FFF;
+    padding: 20px;
+  }
+
+  .custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    th {
+        width: auto;
+        border-bottom: 1px solid #ECECEC;
+    }
+  }
+
+.table-cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 143%;
+    letter-spacing: 0.17px;
+}
+.table-header-cell {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase; 
+}
+
+.table-action-btn {
+    background-color: rgba(0,0,0, 0.04);
+}
+  
+  .fileNameColumn,
+  .uploadedDateColumn,
+  .fileSizeColumn,
+  .actionsColumn {
+    text-align: left;
+    padding: 10px; 
+  }
+  
+  .fileNameColumn {
+    width: 60%;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 21.98px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #364254;
+
+  }
+  
+  .uploadedDateColumn {
+    width: 90%;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 21.98px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #364254;
+
+
+  }
+  
+  .fileSizeColumn {
+    width: 50%;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 21.98px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #364254;
+
+
+  }
+  
+  .actionsColumn {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .file-name-cell {
+    display: flex;
+    align-items: center;
+  }
+  

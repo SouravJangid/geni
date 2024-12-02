@@ -1,0 +1,2 @@
+APP_ENV=development
+BE_SERVER_ADDRESS=https://api.doux.pro

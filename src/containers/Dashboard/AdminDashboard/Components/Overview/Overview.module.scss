@@ -1,0 +1,82 @@
+.main {
+  width: 100%;
+  height: 260px;
+  padding: 1em;
+  background-color: #fff;
+  border-radius: 16px;
+  // box-shadow: 2px;
+  
+  .sab-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    .view-all {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5em;
+      font-variant: 'caption';
+      color: #646464;
+      background-color: #f3f3f3;
+      border-radius: 50px;
+
+      .link {
+        color: #333;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .submain {
+    max-height: 160px;
+    overflow-y: auto;
+    padding-right: 8px;
+
+    .person-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      .person-list-item {
+        display: flex;
+        align-items: center;
+        padding: 4px 0;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .person-avatar {
+          width: 45px;
+          height: 45px;
+          margin-right: 16px;
+        }
+
+        .person-info {
+          flex-grow: 1;
+
+          .person-name {
+            font-weight: 500;
+            font-size: 1.1rem;
+          }
+
+          .person-title {
+            color: #888;
+            font-size: 0.9rem;
+          }
+        }
+
+        .details-button {
+          margin-left: auto;
+          background-color: #f3f3f3;
+          border-radius: 50%;
+          .right-icon{
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}

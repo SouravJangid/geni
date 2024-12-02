@@ -1,0 +1,205 @@
+.main {
+  width: 100%;
+  height: 65vh;
+  .a-main{
+  height: 100%;   
+  .sab-main {
+    cursor: pointer;
+    .view-all {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 15%;
+      font-variant: 'caption';
+      color: #646464;
+      background-color: #f3f3f3;
+      border-radius: 50px;
+      .link {
+        color: #333;
+        text-decoration: none;
+      }
+    }
+  }
+  .chips {
+    .chip-container {
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      font-weight: 500;
+
+      .chip-active {
+        background-color: #007bff;
+        color: white;
+        width: fit-content;
+      }
+
+      .chip {
+        background-color: #F7F7F7;
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #d0d0d0;
+        }
+      }
+    }
+  }
+  .queries {
+    height: 95%;
+    .card-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 10px;
+      height: 80%;
+      overflow-y: auto;
+    }
+  }
+}
+  .question-answers{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .back-button{
+      width: 100%;
+      padding-bottom: 0.5em;
+    }
+    .write-answer{
+        display: flex;
+        max-width: 35%;
+        color: #007bff;
+        height: 29px;
+        background-color: #e6f0ff;
+        border-radius: 50px;
+        padding: 0.3em;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+          background-color: #d0e7ff;
+        }
+      }
+    .ans-queries{
+      height: 50%;
+      .ans-card-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        padding-top: 10px;
+        overflow-y: auto;
+      }
+      
+    }
+  }
+
+}
+.card-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0.5em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    .meta-info {
+      display: flex;
+      padding-top: 20px;
+      .left {
+        display: flex;
+        padding-top: 10px;
+        .info-item {
+          display: flex;
+          align-items: center;
+          background-color: #F7F7F7;
+          border-radius: 15px;
+          font-size: 12px;
+          font-weight: 500;
+        }
+      }
+      .answer-button {
+        display: flex;
+        color: #007bff;
+        height: 29px;
+        background-color: #e6f0ff;
+        border-radius: 50px;
+        padding: 0.3em;
+        cursor: pointer;
+        justify-content: center;
+        align-self: end;
+        align-items: center;
+        margin-left:auto;
+        &:hover {
+          background-color: #d0e7ff;
+        }
+      }
+    }
+   .left-ans{
+        display: flex;
+        padding: 0.5em;
+        gap: 0.5em;
+        .info-item-ans {
+          display: flex;
+          align-items: center;
+          background-color: #F7F7F7;
+          border-radius: 15px;
+          font-size: 12px;
+          font-weight: 500;
+        
+      }
+    }
+    .hr-ans{
+      padding: 0.5em;
+    }
+    .feedback-ans{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0.7em 0;
+      .head-title {
+        color: #797979;
+        font-family: 'Roboto';
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+        cursor: pointer;
+      } 
+      .icons-container {
+        display: flex;
+        gap: 12px;
+  
+        svg {
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          border-radius: 50px;
+          width: 32px;
+          height: 24px;
+          background-color: #f7f7f7;
+  
+          &.thumb-up-active {
+            width: 32px;
+            height: 24px;
+            background-color: green;
+          }
+  
+          &.thumb-down-active {
+            width: 32px;
+            height: 24px;
+            background-color: red;
+          }
+        }
+      }
+    }
+  }  
+}

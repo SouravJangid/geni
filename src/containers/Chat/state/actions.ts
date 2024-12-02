@@ -1,0 +1,8 @@
+export const ActionsType = {
+  SET_CHAT: 'SET_CHAT',
+  ADD_CHAT: 'ADD_CHAT',
+  NEW_CHAT: 'NEW_CHAT',
+  CHAT_ID: 'CHAT_ID',
+  INPUT_VALUE: 'INPUT_VALUE',
+  SET_CHAT_ID: 'SET_CHAT_ID',
+};
